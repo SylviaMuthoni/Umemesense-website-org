@@ -21,9 +21,9 @@ body {
     z-index: 1000;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
-.nav .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.nav .logo img {
+    height: 70px; /* Adjust as needed */
+    width: 50;
 }
 .nav-links {
     list-style: none;
@@ -45,7 +45,7 @@ body {
     text-align: center;
     padding: 100px 20px;
     /* background: linear-gradient(to right, #0099408c, #0099408c); */
-    background-image: url("./ashes-sitoula-UfEyDdXlRp8-unsplash.jpg");
+    background-image: url("./Untitled\ design\ \(1\).jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ body {
     gap: 80px;
     padding: 80px 70px 80px 70px;
     /* background: rgb(67, 75, 132); */
-    background-color: #30BB30;
+    background-color: #8ACE47;
 
     
 }
@@ -170,7 +170,7 @@ body {
     margin-top: 20px;
 }
 .feature-card {
-    background: #30bb30;
+    background: #8ACE47;
     color: black;
     padding: 20px;
     border-radius: 10px;
@@ -188,10 +188,15 @@ body {
 }
 
 /* Contact Section */
-.contact a {
-    color: #004d99;
-    text-decoration: none;
-    font-weight: bold;
+.contact {
+    
+    text-align: center;
+    padding: 100px 0;
+    background-image: url("./Brand\ Guidelines.pdf.jpg"); /* Replace with actual background image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-shadow: 2px 2px 4px black;
 }
 .contact a:hover {
     text-decoration: underline;
@@ -199,15 +204,16 @@ body {
 
 /* Footer */
 footer {
-    background: #30bb30;
+    background: #8ACE47;
     color: white;
     text-align: center;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 footer p{
     font-style: italic;
     /* Ensure the meter is above other elements */
+/* Reset default styles */
 
 }
