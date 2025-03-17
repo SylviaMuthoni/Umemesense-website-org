@@ -215,5 +215,57 @@ footer p{
     font-style: italic;
     /* Ensure the meter is above other elements */
 /* Reset default styles */
+/* --- 📱 Mobile Responsive Styles --- */
+@media screen and (max-width: 768px) {
+    /* Adjust container width */
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    /* Make text align center */
+    h1, h2, h3, p {
+        text-align: center;
+    }
+
+    /* Stack items vertically */
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Responsive Navbar */
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .navbar li {
+        padding: 10px 0;
+    }
+
+    /* Responsive images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Reduce button sizes */
+    .btn {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Adjust footer */
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+    }
+}
 
 }
