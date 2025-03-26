@@ -216,7 +216,7 @@ footer p{
     /* Ensure the meter is above other elements */
 /* Reset default styles */
 /* --- 📱 Mobile Responsive Styles --- */
-@media screen and (max-width: 768px) {
+(max-width: 768px) {
     /* Adjust container width */
     .container {
         width: 90%;
@@ -266,6 +266,39 @@ footer p{
         text-align: center;
         padding: 20px 10px;
     }
-}
-
-}
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      @media (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .hero-text {
+          font-size: 18px;
+        }
+      
+        .image {
+          width: 100%; /* Full width on mobile */
+        }
+      }
+      @media (max-width: 600px) {
+        .hero-image {
+          background-image: url(./Untitled\ design.jpg); /* Load a smaller image */
+        }
+      }
+      @media (max-width: 600px) {
+        .hero-image {
+          background-image: url(./WhatsApp\ Image\ 2025-03-04\ at\ 12.07.05.jpeg); /* Load a smaller image */
+        }
+      }
+      @media (max-width: 600px) {
+        .hero-image {
+          background-image: url(./WhatsApp\ Image\ 2024-09-06\ at\ 14.17.44.jpeg); /* Load a smaller image */
+        }
+      }
+      
+                  
